@@ -78,8 +78,6 @@ It reads media metadata and playback state directly from compatible players, wit
 
 ## License
 
-## License
-
 NowBar is licensed under the GNU General Public License v3.0 or later (GPL-3.0-or-later).
 
 See [LICENSE](LICENSE) for details.
