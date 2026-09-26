@@ -1,0 +1,6 @@
+{
+    "uuid": "nowbar@lovecatsnyou.github.io",
+    "name": "NowBar",
+    "description": "A compact MPRIS media controller for the GNOME top panel",
+    "shell-version": ["51"]
+}

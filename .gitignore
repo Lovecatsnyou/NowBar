@@ -1,0 +1,12 @@
+# Editor temporary files
+*~
+*.swp
+*.swo
+
+# Build / release archives
+*.zip
+*.shell-extension.zip
+
+# OS metadata
+.DS_Store
+Thumbs.db
