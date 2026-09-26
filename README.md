@@ -4,6 +4,8 @@ NowBar is a compact MPRIS media controller for the GNOME top panel.
 
 It shows the currently playing track directly in the panel and provides a small popup with playback controls, album artwork, track information, and seek support.
 
+![NowBar screenshot](screenshots/nowbar.png)
+
 ## Features
 
 - Shows artist and track title in the GNOME top panel
