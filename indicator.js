@@ -7,6 +7,7 @@ import Gio from 'gi://Gio';
 import GLib from 'gi://GLib';
 import Clutter from 'gi://Clutter';
 import St from 'gi://St';
+import GObject from 'gi://GObject';
 
 import * as PanelMenu from 'resource:///org/gnome/shell/ui/panelMenu.js';
 import * as PopupMenu from 'resource:///org/gnome/shell/ui/popupMenu.js';
@@ -20,7 +21,8 @@ const ART_SIZE = 72;
 const PROGRESS_WIDTH = 190;
 const POPUP_WIDTH = 340;
 
-export class NowBarIndicator extends PanelMenu.Button {
+export const NowBarIndicator = GObject.registerClass(
+class NowBarIndicator extends PanelMenu.Button {
     constructor(name) {
         super(0.0, name, false);
 
@@ -420,4 +422,4 @@ export class NowBarIndicator extends PanelMenu.Button {
 
         super.destroy();
     }
-}
+});
