@@ -1,8 +1,4 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
-// Generated with AI for personal use.
-// Do NOT upload to extensions.gnome.org (EGO) unless you understand JavaScript
-// and can maintain this code.
-
 import Gio from 'gi://Gio';
 import GLib from 'gi://GLib';
 import Clutter from 'gi://Clutter';
