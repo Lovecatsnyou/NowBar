@@ -40,27 +40,38 @@ Examples include:
 
 ## Installation
 
-Clone or download the repository and copy it to:
-
-```text
-~/.local/share/gnome-shell/extensions/nowbar@lovecatsnyou.github.io
-```
-
-For example:
+Download the latest `.shell-extension.zip` file from the GitHub Releases page and install it with:
 
 ```bash
-cp -r NowBar ~/.local/share/gnome-shell/extensions/nowbar@lovecatsnyou.github.io
+gnome-extensions install --force nowbar@lovecatsnyou.github.io.shell-extension.zip
 ```
 
-Then log out and log back in.
-
-Enable the extension with:
+Then log out and log back in, and enable NowBar:
 
 ```bash
 gnome-extensions enable nowbar@lovecatsnyou.github.io
 ```
 
 You can also enable NowBar using the GNOME Extensions application.
+
+## Development
+
+To build a package from the repository:
+
+```bash
+gnome-extensions pack --force \
+  --extra-source=indicator.js \
+  --extra-source=mpris.js \
+  --extra-source=LICENSE
+```
+
+`stylesheet.css` is included automatically by `gnome-extensions pack`.
+
+For GNOME 49 and later, a nested development session can be started with:
+
+```bash
+dbus-run-session gnome-shell --devkit --wayland
+```
 
 ## UUID
 
