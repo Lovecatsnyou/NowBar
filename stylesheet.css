@@ -1,0 +1,54 @@
+/* SPDX-License-Identifier: GPL-3.0-or-later */
+
+.nowbar-panel-label {
+    margin-left: 6px;
+}
+
+.nowbar-art-bin {
+    margin-right: 12px;
+    background-color: rgba(128, 128, 128, 0.12);
+    border-radius: 8px;
+}
+
+.nowbar-art-placeholder {
+    opacity: 0.45;
+}
+
+.nowbar-title {
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+.nowbar-artist {
+    margin-top: 3px;
+    opacity: 0.75;
+}
+
+.nowbar-album {
+    margin-top: 2px;
+    font-size: 0.9em;
+    opacity: 0.5;
+}
+
+.nowbar-time {
+    font-size: 0.8em;
+    opacity: 0.65;
+}
+
+.nowbar-time-left {
+    margin-right: 8px;
+}
+
+.nowbar-time-right {
+    margin-left: 8px;
+}
+
+.nowbar-control-button {
+    margin: 0 2px;
+    padding: 5px 8px;
+}
+
+.nowbar-play-pause-button {
+    padding-left: 9px;
+    padding-right: 9px;
+}
