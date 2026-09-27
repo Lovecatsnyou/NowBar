@@ -89,6 +89,10 @@ org.mpris.MediaPlayer2.*
 
 It reads media metadata and playback state directly from compatible players, without requiring player-specific integrations.
 
+## Development disclosure
+
+NowBar was developed with assistance from AI tools. The code has been reviewed, tested, and is maintained by the project author.
+
 ## License
 
 NowBar is licensed under the GNU General Public License v3.0 or later (GPL-3.0-or-later).
